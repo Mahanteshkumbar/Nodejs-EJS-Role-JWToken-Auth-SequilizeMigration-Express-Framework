@@ -1,4 +1,4 @@
-# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap Role Based authontication
+# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap Role Based authentication
 
 This is a Node.js v17.6.0 with framewokr Express.js admin panel starter project with Token based authentication and session management, Server Side Error handling, form field validations. Used Sequilize 
 
