@@ -1,4 +1,4 @@
-# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap Role Based authentication
+# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap Role Based authentication CSRF protection
 
 This is a Node.js v17.6.0 with framewokr Express.js admin panel starter project with Token based authentication and session management, Server Side Error handling, form field validations. Used Sequilize 
 
@@ -20,19 +20,19 @@ It is a full Node.js and Express.js and Sequilize Migrations project that you sh
 # Home Page
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/homepage.png)
 
-# Login Page
+# Login Page with validation
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/servervalidation.png)
 
-# Signup Page
+# Signup Page with validation
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/register.png)
 
 # Admin Dashboard
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard.png)
 
-# Admin Dashboard
+# Admin Dashboard Roles
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard1.png)
 
-# Admin Dashboard
+# Admin Dashboard Users
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard2.png)
 
 # User Dashboard
