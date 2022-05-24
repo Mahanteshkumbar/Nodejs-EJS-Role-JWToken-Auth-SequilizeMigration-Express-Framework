@@ -1,4 +1,4 @@
-# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap
+# Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework materail bootstrap Role Based authontication
 
 This is a Node.js v17.6.0 with framewokr Express.js admin panel starter project with Token based authentication and session management, Server Side Error handling, form field validations. Used Sequilize 
 
@@ -15,7 +15,7 @@ It is a full Node.js and Express.js and Sequilize Migrations project that you sh
 * Run npx sequelize-cli db:migrate:all
 * Run npx sequelize-cli db:seed:all
 * Run npm start
-* That's it: launch the main URL and login with default credentials admin@admin.com - 123456
+* That's it: launch the main URL and login with default credentials for admin admin@admin.com - 123456, for user user@user.com - 123456
 
 # Home Page
 ![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/homepage.png)
