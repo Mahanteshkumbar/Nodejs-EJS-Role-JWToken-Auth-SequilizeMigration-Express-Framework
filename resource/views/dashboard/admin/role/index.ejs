@@ -1,0 +1,53 @@
+<%- include('../../common/header') %> 
+<%- include('../../common/side-bar') %>
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <%- include('../../common/navbar') %>
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-xl-12 col-sm-12 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                  <h6 class="text-white text-capitalize ps-3">Users table</h6>
+                </div>
+              </div>
+            <div class="card-body py-3 pb-2">
+                <%- include('../../../errors/flash-message')  %>
+                <a href="role/create" class="btn btn-sm btn-info" style="float: right;">Add New User</a>
+                <table class="table align-items-center justify-content-center mb-0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% roleList.forEach((role,key) => { %>
+                            <tr>
+                                <td><%= key+1 %></td>
+                                <td><%= role.name %></td>
+                                <td><%= role.description %></td>
+                                <td style="display: flex;">
+                                    <a href="role/edit/<%= role.id %>" class="btn btn-sm btn-warning">Edit</a>
+                                    &nbsp;
+                                    <form action="role/delete/<%= role.id %>" method="POST">
+                                        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</main>
+
+
+<%- include('../../common/footer') %> 

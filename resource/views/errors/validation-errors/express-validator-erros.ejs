@@ -1,0 +1,11 @@
+<% if(errorMessage){ %>
+ <div>
+    <h5 style="color: brown;">
+        <%
+            errorMessage.forEach(element => { %>
+                <p style="margin-bottom:0rem !important"><%= element.msg %></p>
+            <% }); 
+        %>
+    </h5>
+</div>
+<%  } %>
