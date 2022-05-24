@@ -16,3 +16,24 @@ It is a full Node.js and Express.js and Sequilize Migrations project that you sh
 * Run npx sequelize-cli db:seed:all
 * Run npm start
 * That's it: launch the main URL and login with default credentials admin@admin.com - 123456
+
+# Home Page
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/homepage.png)
+
+# Login Page
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/servervalidation.png)
+
+# Signup Page
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/register.png)
+
+# Admin Dashboard
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard.png)
+
+# Admin Dashboard
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard1.png)
+
+# Admin Dashboard
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/dashboard2.png)
+
+# User Dashboard
+![picture alt](https://github.com/Mahanteshkumbar/Nodejs-EJS-Role-JWToken-Auth-SequilizeMigration-Express-Framework/blob/main/snapshots/userdashboard.png)
